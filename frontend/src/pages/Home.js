@@ -33,6 +33,7 @@ const Home =()=>{
         if (user){
             fetchWorkouts()
         }
+       
         
     },[dispatch,user])
 
